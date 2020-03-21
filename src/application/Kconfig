@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: BSD-3-Clause
+
+config LOADER
+    bool "Loader project"
+    default n
+
+config PSRAM
+    bool "PSRAM project"
+    default n

@@ -1,0 +1,13 @@
+menu "MENUCONFIG DEMO"
+
+ainmenu "MENUCONFIG DEMO CONFIGURATION"
+
+      menu "application"
+              source "src/application/Kconfig"
+      endmenu
+
+      menu "driver"
+              source "src/driver/Kconfig"
+      endmenu
+
+endmenu
